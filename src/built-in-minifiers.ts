@@ -14,6 +14,7 @@ import listNodeMinifier from "./minifiers/list-node-minifier";
 import tableMinifier from "./minifiers/table-minifier";
 import tableRowMinifier from "./minifiers/table-row-minifier";
 import tableCellMinifier from "./minifiers/table-cell-minifier";
+import tabMinifier from "./minifiers/tab-minifier";
 
 export const DEFAULT_MINIFIERS = {
   root: rootMinifier,
@@ -32,6 +33,7 @@ export const DEFAULT_MINIFIERS = {
   tablecell: tableCellMinifier,
   linebreak: lineBreakMinifier,
   paragraph: paragraphMinifier,
+  tab: tabMinifier,
 };
 
 export type DefaultMinifiersType = keyof typeof DEFAULT_MINIFIERS;

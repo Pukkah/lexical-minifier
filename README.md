@@ -85,7 +85,7 @@ editor.update(() => {
 This package aims to minify all the nodes included in the lexical package and its official modules. 
 Below is a list of nodes that are supported by default. If you have created a custom node, you can easily write your minifier. If there is an existing node that you think should be included in this package, please open an [issue](https://github.com/fedemartinm/lexical-minifier/issues) and we'll check it.
 
-`root`, `text`, `link`, `code`, `mark`, `table`, `quote`, `list`, `heading`, `listitem`, `overflow`, `autolink`, `tablerow`, `tablecell`, `linebreak`, `paragraph`
+`root`, `text`, `link`, `code`, `mark`, `table`, `quote`, `list`, `heading`, `listitem`, `overflow`, `autolink`, `tablerow`, `tablecell`, `linebreak`, `paragraph`, `tab`
 
 ### Writing a custom minifier
 
